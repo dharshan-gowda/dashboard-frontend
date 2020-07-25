@@ -1,0 +1,189 @@
+.navbar{
+    background-color: rgb(63, 81, 181);
+    width: 100%;
+    height: 8%;
+    overflow: auto;
+    position: fixed;
+}
+
+.navbar i{
+    color: white;
+    cursor: pointer;
+}
+
+.fa-bell{
+    position: relative;
+    left: 95%;
+}
+
+.sidebar{
+    position: fixed;
+    top: 8%;
+    width: 18%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a{
+    color: black;
+}
+
+.sidebar i{
+    float: left;
+    margin: 0.3vw 0.4vw 0vw 0vw;
+}
+
+.sidebar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile{
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+.upgrade{
+    margin-top: 15%;
+}
+
+.mainbody{
+    position: fixed;
+    top: 8%;
+    left: 18%;
+    width: 82%;
+    height: 100%;
+    overflow: auto;
+}
+
+.topcontent{
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    overflow: auto;
+}
+
+.cards{
+    position: fixed;
+    left: 18%;
+    width: 82%;
+    height: 15%;
+}
+
+.topcol{
+    padding: 0% 1% 0% 1%;
+}
+
+.topcard{
+    box-shadow: black;
+    height: 6rem;
+    width: 100%;
+    margin-top: 0.1rem;
+    overflow: auto;
+}
+
+.last-card{
+    border-radius: 3%;
+    background-color: rgb(63, 81, 181);
+    box-shadow: black;
+    height: 6rem;
+    margin-top: 0.1rem;
+    overflow: auto;
+    color: white;
+}
+
+.bodycontainer{
+    position: fixed;
+    top: 25%;
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
+.barchart{
+    position: fixed;
+    width: 62%;
+    height: 50%;
+    overflow: auto;
+}
+
+.barchartbody{
+    position: fixed;
+    width: 60%;
+    height: 48%;
+}
+
+.piechart{
+    position: fixed;
+    left: 80%;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+}
+
+.piechartbody{
+    position: fixed;
+    width: 18%;
+    height: 48%;
+}
+
+.bar{
+    height: 18rem;
+}
+
+.pie{
+    position: relative;
+    top: 10%;
+}
+
+.footer{
+    position: fixed;
+    top: 75%;
+    width: 100%;
+    height: 100%;
+}
+
+.footlist{
+    position: fixed;
+    text-align: left;
+    width: 22%;
+    height: 100%;
+}
+
+.foottable{
+    position: fixed;
+    left: 40%;
+    width: 60%;
+    height: 100%;
+}
+
+.icon{
+    float: right;
+}
+
+.topcardbody{
+    text-align: left;
+    line-height: 0.5em;
+}
+
+.progress-bar{
+    width: 25%;
+}
+
+.progress{
+    height: 0.3rem;
+}
+
+.piechartbody p{
+    font-size: 1.2vw;
+}
+
+.users{
+    position: relative;
+    top: 20%;
+}
+
+.upgradebtn{
+    background-color: rgb(63, 81, 181);
+    color: white;
+}

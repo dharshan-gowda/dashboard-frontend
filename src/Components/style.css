@@ -48,7 +48,8 @@
 }
 
 .mainbody{
-    margin-top: 0.5vw;
+    background-color: rgb(243, 247, 250);
+    padding-top: 0.5vw;
     position: fixed;
     top: 8%;
     left: 18%;

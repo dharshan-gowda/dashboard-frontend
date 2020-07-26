@@ -48,6 +48,7 @@
 }
 
 .mainbody{
+    margin-top: 0.5vw;
     position: fixed;
     top: 8%;
     left: 18%;
@@ -80,6 +81,10 @@
     width: 100%;
     margin-top: 0.1rem;
     overflow: auto;
+}
+
+.topcardbody p{
+    font-size: 0.8vw;
 }
 
 .last-card{
@@ -174,13 +179,36 @@
     height: 0.3rem;
 }
 
-.piechartbody p{
-    font-size: 1.2vw;
+.piecharttitle{
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .users{
     position: relative;
     top: 20%;
+}
+
+.users p{
+    font-size: 0.8vw;
+    color: black;
+}
+
+.users span{
+    margin: 0.2vw 0.2vw 0.2vw 0.2vw;
+}
+
+.desktop h6{
+    color: orange;
+}
+
+.tablet h6{
+    color: red;
+}
+
+.mobile h6{
+    color: blue;
 }
 
 .upgradebtn{

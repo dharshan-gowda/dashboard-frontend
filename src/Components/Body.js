@@ -74,8 +74,8 @@ function Body(){
                         <div className="topcard card">
                             <div className="topcardbody card-body">
                                 <i className="icon fas fa-money-bill-wave"></i>
-                                <p>Budget</p>
-                                <h6>$24000</h6>
+                                <h6>Budget</h6>
+                                <h5>$24000</h5>
                                 <p>Since last month</p>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ function Body(){
                         <div className="topcard card">
                             <div className="topcardbody card-body">
                                 <i className="icon fas fa-users"></i>
-                                <p>Total Users</p>
-                                <h6>1600</h6>
+                                <h6>Total Users</h6>
+                                <h5>1600</h5>
                                 <p>Since last month</p>
                             </div>
                         </div>
@@ -94,8 +94,8 @@ function Body(){
                         <div className="topcard card">
                             <div className="topcardbody card-body">
                                 <i className="icon fas fa-tasks"></i>
-                                <p>Task Progress</p>
-                                <h6>25%</h6>
+                                <h6>Task Progress</h6>
+                                <h5>25%</h5>
                                 <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
@@ -106,8 +106,8 @@ function Body(){
                         <div className="last-card">
                             <div className="topcardbody card-body">
                                 <i className="icon fas fa-dollar-sign"></i>
-                                <p>Total Profit</p>
-                                <h6>$23200</h6>
+                                <h6>Total Profit</h6>
+                                <h5>$23200</h5>
                             </div>
                         </div>
                         </div>
@@ -124,18 +124,18 @@ function Body(){
                 </div>
                 <div className="piechart col-sm">
                         <div className="piechartbody card">
-                            <p>Users By Device</p>
+                            <p className="piecharttitle">Users By Device</p>
                                 <canvas className="pie" id="chart_1"/>
                                 <div className="users">
-                                    <div className="desktop">
-                                        <i className="fas fa-desktop"> Desktop</i>
-                                    </div>
-                                    <div className="desktop">
-                                        <i className="tablet fas fa-tablet"> Tablet</i>
-                                    </div>
-                                    <div className="desktop">
-                                        <i className="mobile fas fa-mobile-alt"> Mobile</i>
-                                    </div>
+                                    <span className="desktop">
+                                        <i className="fas fa-desktop"><p>Desktop</p><h6>63%</h6></i>
+                                    </span>
+                                    <span className="tablet">
+                                        <i className="tablet fas fa-tablet"><p>Tablet</p><h6>15%</h6></i>
+                                    </span>
+                                    <span className="mobile">
+                                        <i className="mobile fas fa-mobile-alt"> <p>Mobile</p><h6>23%</h6></i>
+                                    </span>
                                 </div>
                             </div>
                         </div>
